@@ -1,5 +1,6 @@
 require 'sidekiq/api'
 require 'date'
+require 'aws-sdk-cloudwatch'
 
 # Set cloudwatch config
 
