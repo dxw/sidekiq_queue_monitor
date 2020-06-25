@@ -15,7 +15,7 @@ GEM
       aws-eventstream (~> 1.0, >= 1.0.2)
     connection_pool (2.2.2)
     jmespath (1.4.0)
-    rack (2.1.1)
+    rack (2.2.3)
     rack-protection (2.0.5)
       rack
     redis (4.1.2)
