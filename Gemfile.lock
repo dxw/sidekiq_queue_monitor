@@ -1,4 +1,7 @@
 GEM
+  specs:
+
+GEM
   remote: https://rubygems.org/
   specs:
     aws-eventstream (1.0.3)
@@ -13,17 +16,14 @@ GEM
       jmespath (~> 1.0)
     aws-sigv4 (1.1.0)
       aws-eventstream (~> 1.0, >= 1.0.2)
-    connection_pool (2.2.2)
+    connection_pool (2.2.5)
     jmespath (1.4.0)
     rack (2.2.3)
-    rack-protection (2.0.5)
-      rack
-    redis (4.1.2)
-    sidekiq (5.2.7)
-      connection_pool (~> 2.2, >= 2.2.2)
-      rack (>= 1.5.0)
-      rack-protection (>= 1.5.0)
-      redis (>= 3.3.5, < 5)
+    redis (4.5.1)
+    sidekiq (6.4.0)
+      connection_pool (>= 2.2.2)
+      rack (~> 2.0)
+      redis (>= 4.2.0)
 
 PLATFORMS
   ruby
